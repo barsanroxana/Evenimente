@@ -6,6 +6,7 @@
     <title>@ViewBag.Title - My ASP.NET Application</title>
     @Styles.Render("~/Content/css")
     @Scripts.Render("~/bundles/modernizr")
+    <script src="@Url.Content("~/Scripts/CalendarApp.js")" type="text/javascript"></script>
 
 </head>
 <body class="body_background">
@@ -29,9 +30,9 @@
                             Event<span class="caret"></span>
                         </a>
                         <ul class="dropdown-menu dropdown_colors">
-                            <li>@Html.ActionLink("Events", "Index", "Home")</li>
-                            <li>@Html.ActionLink("New", "Index", "Home")</li>
-                            <li>@Html.ActionLink("Find", "Index", "Home")</li>
+                            <li>@Html.ActionLink("Events", "Events", "Home")</li>
+                            <li>@Html.ActionLink("Create", "Index", "Home")</li>
+                            <li>@Html.ActionLink("View", "Index", "Home")</li>
                         </ul>
                     </li>
                     <li>@Html.ActionLink("Album", "Album", "Home")</li>
@@ -57,6 +58,7 @@
 
     @Scripts.Render("~/bundles/jquery")
     @Scripts.Render("~/bundles/bootstrap")
+    @Scripts.Render("~/Scripts/CalendarApp.js")
     @RenderSection("scripts", required: false)
 </body>
 </html>

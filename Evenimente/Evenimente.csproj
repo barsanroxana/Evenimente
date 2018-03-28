@@ -224,6 +224,9 @@
     <Content Include="Image\conDe.jpg" />
     <Content Include="Image\glare.jpg" />
     <Content Include="Image\irinarimes.jpg" />
+    <Content Include="Image\judete-romania.png" />
+    <Content Include="Image\Romania_Judete %281%29.png" />
+    <Content Include="Image\Romania_Judete.png" />
     <Content Include="Image\standMic.jpg" />
     <Content Include="Image\summerwell.jpg" />
     <Content Include="Image\sumWell.jpg" />
@@ -237,6 +240,7 @@
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
     <None Include="Scripts\jquery-1.10.2.intellisense.js" />
+    <Content Include="Scripts\CalendarApp.js" />
     <Content Include="Scripts\jquery-1.10.2.js" />
     <Content Include="Scripts\jquery-1.10.2.min.js" />
     <None Include="Scripts\jquery.validate-vsdoc.js" />
@@ -247,6 +251,8 @@
     <Content Include="Scripts\modernizr-2.6.2.js" />
     <Content Include="Scripts\respond.js" />
     <Content Include="Scripts\respond.min.js" />
+    <Content Include="Image\pana.png" />
+    <Content Include="Scripts\startTime.js" />
     <Content Include="Web.config" />
     <Content Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
@@ -282,6 +288,7 @@
     <Content Include="Views\Shared\Lockout.cshtml" />
     <Content Include="Views\Shared\_LoginPartial.cshtml" />
     <Content Include="Views\Home\Album.cshtml" />
+    <Content Include="Views\Home\Events.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />

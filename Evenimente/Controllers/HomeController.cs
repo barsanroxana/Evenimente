@@ -34,6 +34,14 @@ namespace Evenimente.Controllers
             return View();
         }
 
+        public ActionResult Events()
+        {
+            ViewBag.Message = "Your event page.";
+
+            return View();
+        }
+
+
 
     }
 }
